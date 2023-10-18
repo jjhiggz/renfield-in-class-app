@@ -1,0 +1,40 @@
+h1 {
+  color: black;
+}
+
+h1.dark {
+  color: white;
+}
+
+body {
+  background-color: peachpuff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body.dark {
+  background-color: rgb(65, 0, 65);
+}
+
+img {
+  width: 500px;
+}
+
+button {
+  padding: 10px;
+  background-color: skyblue;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+button.dark {
+  background-color: orangered;
+}
+button:hover {
+  background-color: khaki;
+}
